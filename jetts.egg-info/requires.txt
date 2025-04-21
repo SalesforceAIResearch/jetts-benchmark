@@ -1,0 +1,7 @@
+vllm
+datasets
+openai
+msgspec
+transformers
+tqdm
+numpy
