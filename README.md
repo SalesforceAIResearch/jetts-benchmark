@@ -176,7 +176,7 @@ cd local_code_eval
 tar xzf evalplus.tar.gz
 cd evalplus
 uv pip install -e .
-cd ..
+cd ../..
 ```
 
 #### BigCodeBench
@@ -190,6 +190,7 @@ tar xzf bigcodebench.tar.gz
 cd bigcodebench
 uv pip install -e .
 uv pip install -r requirements-eval.txt
+cd ../..
 ```
 
 #### Running the evaluation
