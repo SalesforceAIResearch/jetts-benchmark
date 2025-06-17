@@ -45,7 +45,7 @@ If you are working in this folder, we recommend creating a subfolder for these d
 mkdir jetts_data
 cd jetts_data
 
-# data for reranking and refinement (143MB zipped, 650MB extracted)
+# data for reranking and refinement (152MB zipped, 687MB extracted)
 gcloud storage cp gs://sfr-jetts-benchmark-data/reranking_and_refinement.tar.gz .
 tar xzf reranking_and_refinement.tar.gz
 rm reranking_and_refinement.tar.gz
